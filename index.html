@@ -6,7 +6,7 @@
     <link rel="stylesheet" href="style.css"/>
     <link href="https://fonts.googleapis.com/css?family=Orbitron" rel="stylesheet">
 
-    <title>HackCon 2017</title>
+    <title>d4rkc0de</title>
   </head>
 
 
@@ -47,57 +47,29 @@
         <div id="slideshow">
           <div class="container slide" style="padding: 25px">
             <p class = "description" ><strong><u>About: </u></strong></p>
-            <p class = "description">HackCon is a one day Capture The Flag contest conducted online where teams from across the world will participate and try to solve questions based on cryptography, reverse engineering, binary exploits, steganography, and web vulnerabilities. Each question will have points assigned to them based on the difficulty level. Grab the most points to win!</p>
+        <p class = "description">d4rkc0de is the Computer Security Club at IIIT-D. We focus on several fields such as Cryptography, Web exploits, Binary exploits, Reverse Engineering, Forensics and a variety of related fields. Our aim is to widen the knowledge of security amongst students in India.</p>
           </div>
           <div class="container slide">
-            <p style = "color: #6aa84f; font-size: 20px"><strong><u>Rules: </u></strong></p>
-            <br>
-            <ol id = "rulelist">
-              <li>Attacks on the servers are strictly prohibited</li>
-              <li>The CTF will follow Jeopardy style format</li>
-              <li>No physical coercion. This is still a game</li>
-              <li>Sharing of flags / solutions (online or offline) is strictly against the spirit of the game, and any proof found of sharing will lead to disqualification of the team</li>
-              <li>Flags are in the format d4rk{[a-zA-Z0-9_]*}c0de unless otherwise mentioned</li>
-            </ol>
+            <p class="description"><strong><u>Events: </u></strong></p>
+        <br>
+        <ol id = "rulelist">
+          <li><strong>HackCon:</strong> Our Flagship CTF event conducted once a year.</li>
+          <li><strong>n00b talks:</strong> These are weekly sessions for beginners</li>
+          <li><strong>pr0 talks:</strong> These are bi-weekly sessions for experienced people</li>
+          <li><strong>Hacking challenge:</strong> These are challeneges that take place once a month after sessions based on content covered in a particular session</li>
+          <li><strong>Monthly CTFs:</strong> We conduct monthly CTFs at IIIT-D.</li>
+        </ol>
           </div>
           <div class="container slide" style="padding: 25px">
-            <p style = "color: #6aa84f; font-size: 20px"><strong><u>Event Structure: </u></strong></p>
-            <p style = "color: #6aa84f; font-size: 20px">The event will consist of one online round where the team that scores the most points will be deemed the winner. In case of a tie, the team that solved the questions worth the tied number of points first will be deemed the winner. There will be 4 awards. 1st place, 2nd place, 3rd place and Best Indian School Team. Awards are only for Indian Teams</p>
+            <p id="structure" style = "color: #6aa84f; font-size: 20px"><strong><u>Membership: </u></strong></p>
+        <p id="structure" style = "color: #6aa84f; font-size: 20px">The Club is open to all. Membership into the d4rkc0de CTF team is based on performances in CTFs conducted both on CTFtime and locally.</p>
           </div>
 
-          <div class="container slide" style = "padding: 25px">
-            <p style = "color: #6aa84f; font-size: 20px"><strong><u>Registration: </u></strong></p>
-            <p style = "color: #6aa84f; font-size: 20px">Registration will begin 3 days before the event</p>
-          </div>
         </div>
       </div>
       <div class="container" style = "padding: 50px">
-      <footer style="color: #6aa84f; font-size: 15px">Contact: Deepak: +91-8754498565, Yashit: +91-9650954383, Palash: +91-9717524704, Anubhav: +91-9811740848</footer>
+    <footer style="color: #6aa84f; font-size: 15px; text-align: center;">Coordinators: Palash: +91-9717524704, Deepak: +91-8754498565, Yashit: +91-9650954383, </footer>
       </div>
-
-
-      <script>
-
-  var countDownDate = new Date("Aug 25, 2017 21:00:25").getTime();
-
-
-  var x = setInterval(function() {
-
-      var now = new Date().getTime();
-      var distance = countDownDate - now;
-      var days = Math.floor(distance / (1000 * 60 * 60 * 24));
-      var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-      var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
-      var seconds = Math.floor((distance % (1000 * 60)) / 1000);
-      document.getElementById("timer").innerHTML = days + "d " + hours + "h " + minutes + "m " + seconds + "s ";
-
-
-      if (distance < 0) {
-          clearInterval(x);
-          document.getElementById("timer").innerHTML = "EXPIRED";
-      }
-  }, 1000);
-  </script>
 
 
     <script src = "js/jquery-3.2.1.min.js"></script>
