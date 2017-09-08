@@ -10,6 +10,13 @@ body{
     font-weight: bold;
 }
 
+#subtitle{
+    color: #30c62b;
+    font-size: 0.5em;
+    margin-top: -20px;
+    margin-left: 385px;
+ }
+
 .jumbotron{
   text-align: center;
   background: #282828;
